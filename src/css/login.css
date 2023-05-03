@@ -1,0 +1,183 @@
+.login_wrap{
+    width: 100%;
+    height: 50vh;
+    /* border-bottom: 1px solid #E2DDC9;
+    border-top: 1px solid #E2DDC9;
+    box-sizing: border-box; */
+    /* background-color: antiquewhite; */
+}
+
+.login_box{
+    width: 500px;
+    margin: 20vh auto;
+    font-size: 15px;
+    /* border: 1px solid #E2DDC9; */
+}
+
+.login_box input{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.login_btn, .join_btn, .naver_login, .kakao_login{
+    width: 260px;
+    height: 25px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.login_btn{
+    border: 1px solid #b8b29e;
+    background-color: #b8b29e;
+    color: #181818;
+    line-height: 27px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.join_btn{
+    border-bottom: 1px solid #b8b29e;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.find_btn{
+    width: 50%;
+    margin: 0 auto;
+    height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    line-height: 25px;
+    /* border: 1px solid #E2DDC9; */
+}
+
+
+
+.find_btn li{
+    width: 50%;
+    float: left;
+}
+
+.naver_login{
+    /* background-color: #00c542; */
+    border: 1px solid #00c542;
+    color: #00c542;
+    font-size: 13px;
+    margin-top: 13px;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: transparent;
+    box-sizing: content-box;
+}
+
+.naver_login:hover{
+    border: 1px solid #00c542;
+    color: #181818;
+    background-color: #00c542;
+    transition: all 0.5s;
+}
+
+.kakao_login{
+    /* background-color: #00c542; */
+    border: 1px solid #ffd900;
+    color: #ffd900;
+    font-size: 13px;
+    margin-top: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.kakao_login:hover{
+    border: 1px solid #ffd900;
+    color: #181818;
+    background-color: #ffd900;
+    transition: all 0.5s;
+}
+
+.kakao_login img{
+    display: none;
+}
+
+.kakao_login::before{
+    content: "KAKAO LOGIN";
+    font-size: 13px;
+}
+
+/* --------------------------- join ------------------------------ */
+
+.join_wrap{
+    width: 100%;
+    height: 1250px;
+    font-size: 14px;
+}
+
+.join_inputbox{
+    width: 700px;
+    height: 170px;
+    margin: 100px auto;
+    padding-top: 30px;
+    border-top: 1px solid #b8b29e;
+    border-bottom: 1px solid #b8b29e;
+}
+
+.join_text{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    text-align: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.join_inputbox input{
+    width: 170px;
+    height: 20px;
+}
+
+
+.join_agree_wrap{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.join_agree{
+    text-align: left;
+}
+
+.join_agree textarea{
+    padding: 20px;
+    font-size: 12px;
+}
+
+.join_agree p{
+    margin: 7px;
+    margin-left: -2px;
+}
+
+.join_agree_wrap input{
+    accent-color: #b8b29e;
+}
+
+.check_box{
+    float: right;
+}
+
+.join_last_btn{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #b8b29e;
+    font-size: 18px;
+    line-height: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 50px auto;
+}
+
+.join_last_btn:hover{
+    border: 1px solid #181818;
+    background-color: #b8b29e;
+    color: #181818;
+    transition: all 0.5s;
+}

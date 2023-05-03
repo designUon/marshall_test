@@ -1,0 +1,381 @@
+.product_wrap {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.product_slide {
+    height: 50vh;
+    /* line-height: 35vh; */
+    box-sizing: border-box;
+}
+
+
+#swiper2 {
+    height: 550px;
+    /* border: 1px solid #E2DDC9; */
+    margin: 150px 0;
+}
+
+#swiper2 .swiper {
+    width: 100%;
+    height: 100px;
+    /* padding: 50px 0; */
+}
+
+#swiper2 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /* width: 300px;
+    height: 300px; */
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+}
+
+#swiper2 .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+#swiper2 .swiper-slide:nth-child(1) {
+    background-image: url(../../public/mh-monitor-II-ANC-medium.png);
+}
+
+#swiper2 .swiper-slide:nth-child(2) {
+    background-image: url(../../public/plp-marshall-motif-anc-black.png);
+}
+
+#swiper2 .swiper-slide:nth-child(3) {
+    background-image: url(../../public/006_marshall-stockwell-ii-black-brass.png);
+}
+
+#swiper2 .swiper-slide:nth-child(4) {
+    background-image: url(../../public/007_marshall-emberton-ii-black-brass.png);
+}
+
+#swiper2 .swiper-slide:nth-child(5) {
+    background-image: url(../../public/004_pl-marshall-speakers-woburn-ii-black-1700x1700.png);
+}
+
+
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    /* background-image: transparent; */
+}
+
+.swiper-3d .swiper-slide-shadow-left {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+
+.productlist_wrap {
+    width: 1280px;
+    height: 840px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    /* border: 1px solid #E2DDC9; */
+    /* position: relative; */
+}
+
+.productlist_image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+.productlist_box {
+    width: 300px;
+    height: 400px;
+    margin: 10px 10px;
+    border: 1px solid #b8b29e;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.productlist_wrap {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.productlist_wrap.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product_btns {
+    width: 60px;
+    height: 25px;
+    /* border: 1px solid #E2DDC9; */
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.like_btn,
+.cart_btn {
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.cart_btn {
+    margin-left: 10px;
+}
+
+
+/* ----------------------------- cart --------------------------- */
+
+
+.cart_title {
+    margin: 70px auto;
+    font-size: 18px;
+    width: 100px;
+    border-left: 2px solid #b8b29e;
+    border-right: 2px solid #b8b29e;
+}
+
+.cart_wrap {
+    width: 600px;
+    /* height: 45vh; */
+    border-top: 2px solid #b8b29e;
+    margin: -30px auto;
+}
+
+.cart_box {
+    width: 100%;
+    height: 90px;
+    margin-top: 30px;
+    border-bottom: 1px solid #b8b29e;
+}
+
+.cart_check {
+    float: left;
+    margin-top: 21px;
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+    accent-color: #b8b29e;
+}
+
+.cart_img_box {
+    width: 100px;
+    height: 90px;
+    /* border: 1px solid #E2DDC9; */
+    float: left;
+    margin-left: 30px;
+}
+
+.cart_img_box img {
+    width: 100%;
+    margin-top: -30px;
+    transform: scale(1.2);
+}
+
+.cart_text {
+    width: calc(100% - 230px);
+    height: 30px;
+    /* border: 1px solid #E2DDC9; */
+    float: right;
+    margin-top: 20px;
+}
+
+.cart_name {
+    width: 190px;
+    text-align: left;
+    float: left;
+    /* border: 1px solid #E2DDC9; */
+}
+
+.cart_price {
+    float: left;
+    text-align: left;
+    /* border: 1px solid #E2DDC9; */
+    width: 100px;
+}
+
+.cart_del_btn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid #b8b29e;
+    color: #b8b29e;
+    background-color: transparent;
+    float: right;
+    /* margin-top: -20px; */
+    margin-right: 15px;
+}
+
+.total_box {
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid #b8b29e;
+    margin-top: 50px;
+    /* margin-right: 10px; */
+}
+
+.total_box li {
+    /* height: 70px; */
+    line-height: 25px;
+    float: right;
+    font-size: 20px;
+    /* border: 1px solid #E2DDC9; */
+}
+
+.total_calc,
+.total_ea {
+    margin-left: 20px;
+}
+
+.total_calc {
+    margin-right: 15px;
+}
+
+.total_ea {
+    width: 75px;
+    height: 25px;
+    border-right: 1px solid #b8b29e;
+}
+
+.order_btn {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #b8b29e;
+    font-size: 18px;
+    line-height: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 100px auto;
+    margin-bottom: 130px;
+}
+
+.order_btn:hover {
+    border: 1px solid #181818;
+    background-color: #b8b29e;
+    color: #181818;
+    transition: all 0.5s;
+}
+
+
+/* ----------------------------- like --------------------------- */
+
+
+.like_title {
+    margin: 70px auto;
+    font-size: 18px;
+    width: 100px;
+    border-left: 2px solid #b8b29e;
+    border-right: 2px solid #b8b29e;
+}
+
+.like_wrap {
+    width: 600px;
+    height: 60vh;
+    border-top: 1px solid #b8b29e;
+    margin: -30px auto;
+}
+
+.like_box {
+    width: 25%;
+    height: 150px;
+    margin-top: 30px;
+    border-bottom: 1px solid #b8b29e;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+}
+
+.like_img_box {
+    width: 80%;
+    height: 90px;
+    /* border: 1px solid #E2DDC9; */
+    float: left;
+    margin-left: 10%;
+}
+
+.like_img_box img {
+    width: 100%;
+    margin-top: -20px;
+    transform: scale(1.2);
+}
+
+.like_text {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    /* border: 1px solid #E2DDC9; */
+    float: right;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.like_name {
+    text-align: center;
+    /* border: 1px solid #E2DDC9; */
+}
+
+.like_price {
+    margin-top: 40px;
+}
+
+.like_del_btn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    color: #b8b29e;
+    background-color: transparent;
+    position: absolute;
+    top: -20px;
+    right: 5px;
+}
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    opacity: 1;
+    animation: grow 2s ease-in-out infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.circle_line{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* border: 1px solid white; */
+    opacity: 1;
+}
+
+@keyframes grow {
+    0% {
+        /* border: 1px solid white; */
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    70% {
+        border: 1px solid white;
+        opacity: 0;
+        transform: scale(20);
+    }
+
+    100% {
+        border: 1px solid white;
+        opacity: 0;
+        transform: scale(30);
+    }
+}
