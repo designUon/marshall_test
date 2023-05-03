@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/marshall_test/static/css/main.5f716afa.css",
+    "main.js": "/marshall_test/static/js/main.f5f2de43.js",
+    "static/js/787.2b971896.chunk.js": "/marshall_test/static/js/787.2b971896.chunk.js",
+    "static/media/marshall_slide_04.jpeg": "/marshall_test/static/media/marshall_slide_04.37eb6705ed2a710a7842.jpeg",
+    "static/media/004_pl-marshall-speakers-woburn-ii-black-1700x1700.png": "/marshall_test/static/media/004_pl-marshall-speakers-woburn-ii-black-1700x1700.d788de9393746c9ddb50.png",
+    "static/media/marshall_slide_05.jpeg": "/marshall_test/static/media/marshall_slide_05.9e173d409b9b3990a7f1.jpeg",
+    "static/media/marshall_slide_03.jpg": "/marshall_test/static/media/marshall_slide_03.be951904268a174dfca6.jpg",
+    "static/media/mh-monitor-II-ANC-medium.png": "/marshall_test/static/media/mh-monitor-II-ANC-medium.f6ee2ba0c5cae452924c.png",
+    "static/media/marshall_slide_01.jpg": "/marshall_test/static/media/marshall_slide_01.0b55aa334e9fc6670397.jpg",
+    "static/media/plp-marshall-motif-anc-black.png": "/marshall_test/static/media/plp-marshall-motif-anc-black.4f09415c7375edcbb47f.png",
+    "static/media/007_marshall-emberton-ii-black-brass.png": "/marshall_test/static/media/007_marshall-emberton-ii-black-brass.576f4ca0863a319d27d5.png",
+    "static/media/006_marshall-stockwell-ii-black-brass.png": "/marshall_test/static/media/006_marshall-stockwell-ii-black-brass.e77b889419cd964b3ea0.png",
+    "index.html": "/marshall_test/index.html",
+    "main.5f716afa.css.map": "/marshall_test/static/css/main.5f716afa.css.map",
+    "main.f5f2de43.js.map": "/marshall_test/static/js/main.f5f2de43.js.map",
+    "787.2b971896.chunk.js.map": "/marshall_test/static/js/787.2b971896.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f716afa.css",
+    "static/js/main.f5f2de43.js"
+  ]
+}
